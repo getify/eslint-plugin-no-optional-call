@@ -1,0 +1,31 @@
+{
+	"name": "eslint-plugin-no-optional-call",
+	"version": "1.0.0",
+	"description": "An ESLint plugin to disable the use of the optional-call operator.",
+	"main": "./lib/index.js",
+	"exports": "./lib/index.js",
+	"scripts": {
+		"lint": "eslint .",
+		"test": "mocha tests --recursive"
+	},
+	"devDependencies": {
+		"@babel/core": "~7.19.1",
+		"@babel/eslint-parser": "~7.19.1",
+		"eslint": "~8.23.1",
+		"mocha": "^10.0.0"
+	},
+	"repository": "getify/eslint-plugin-no-optional-call",
+	"keywords": [
+		"eslint",
+		"eslintplugin",
+		"eslint-plugin",
+		"optional"
+	],
+	"bugs": {
+		"url": "https://github.com/getify/eslint-plugin-no-optional-call/issues",
+		"email": "getify@gmail.com"
+	},
+	"author": "Kyle Simpson <getify@gmail.com>",
+	"with credits to": "Arend van Beelen jr.",
+	"license": "MIT"
+}
