@@ -1,6 +1,6 @@
 # ESLint Plugin: no-optional-call
 
-[![npm Module](https://badge.fury.io/js/%40getify%2Feslint-plugin-no-optional-call.svg)](https://www.npmjs.org/package/eslint-plugin-no-optional-call)
+[![npm Module](https://badge.fury.io/js/eslint-plugin-no-optional-call.svg)](https://www.npmjs.org/package/eslint-plugin-no-optional-call)
 
 ## Overview
 
