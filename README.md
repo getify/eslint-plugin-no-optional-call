@@ -24,6 +24,16 @@ The first `?.` is optional-chaining (which is fine!), but the second `?.(` is an
 func?.(42);
 ```
 
+----
+
+**&lt;RANT>**
+
+Let's first just focus on the syntactic design choice. The `?.(` operator uses a `.` in it, which is basically exclusively signalling a property access in **ALL THE REST OF JS**. The related `?.` and `?.[` optional-chain operators at least make sense, because those **are about accessing a property**. But not here. At least not in any way the typical JS developer would recognize. `func?.(42)` is not accessing any property, is it? I mean, if you squint, you might imagine that it's accessing the underlying "call property" of a function. But that's not a concept exposed at the JS developer level of the language (it's a nuance of specification trivia). No JS-level developer naturally thinks like that. `?(` as optional-call would have at least made a bit more sense, from a purely syntactic perspective.
+
+**&lt;/RANT>**
+
+----
+
 In both cases, here's the equivalent code this `?.(` operator purports to replace:
 
 ```js
